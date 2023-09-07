@@ -1,4 +1,4 @@
-n=input()
+n=str(input())
 list=[i for i in n]
 for i in range(0,len(list)):
     if list[i]=='6':
@@ -6,4 +6,3 @@ for i in range(0,len(list)):
         break
 for i in list:
     print(i,end='')
-        
